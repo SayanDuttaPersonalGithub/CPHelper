@@ -72,8 +72,12 @@ freopen("Error.txt", "w", stderr);
 		solve();
 	}
 	return 0;
+<<<<<<< HEAD
 }
 '''
+=======
+}'''
+>>>>>>> c435abe4889a4d098824a35d86d23177eb407c36
 
 import json
 
@@ -82,7 +86,11 @@ D['template'] = TEMPLATE
 D['inputTxtPath'] = "C:\Users\SAYAN\AppData\Roaming\Sublime Text\Packages\User\input.txt"
 D['dashCount'] = 50
 D['baseContestPath'] = "C:\Users\SAYAN\AppData\Roaming\Sublime Text\Packages\User"
+<<<<<<< HEAD
 D['author'] = 'Puneet Rai'
+=======
+D['author'] = 'Sayan'
+>>>>>>> c435abe4889a4d098824a35d86d23177eb407c36
 D['teamName'] = 'BlundersPride'
 
 with open('globals.json' , 'wb') as glob:
