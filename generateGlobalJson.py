@@ -72,11 +72,8 @@ freopen("Error.txt", "w", stderr);
 		solve();
 	}
 	return 0;
-<<<<<<< HEAD
 }
 '''
-=======
-}'''
 >>>>>>> c435abe4889a4d098824a35d86d23177eb407c36
 
 import json
