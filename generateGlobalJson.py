@@ -77,9 +77,9 @@ freopen("Error.txt", "w", stderr);
 import json
 D = {}
 D['template'] = TEMPLATE
-D['inputTxtPath'] = "C:\Users\SAYAN\AppData\Roaming\Sublime Text\Packages\User\input.txt"
+D['inputTxtPath'] = r"C:\Users\SAYAN\AppData\Roaming\Sublime Text\Packages\User\input.txt"
 D['dashCount'] = 50
-D['baseContestPath'] = "C:\Users\SAYAN\AppData\Roaming\Sublime Text\Packages\User"
+D['baseContestPath'] = r"C:\Users\SAYAN\AppData\Roaming\Sublime Text\Packages\User"
 D['teamName'] = 'BlundersPride'
 
 with open('globals.json' , 'wb') as glob:
